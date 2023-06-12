@@ -1,0 +1,135 @@
+ * {
+
+   background-position: center;
+   text-align: center;
+   margin: 0px;
+   padding: 9px;
+ }
+
+ body {
+   background-image: url("../img/luces2.jpg");
+   background-size: cover;
+
+ }
+.videoburger{
+  height: 200px;
+  width: auto;
+  display: inline-block;
+}
+
+ .textogrande {
+   font-size: 40px;
+  border: 5px solid red;
+  background-color: darkblue;
+}
+
+.textogrande p {
+ font-style: italic;
+ display: block;
+ font-weight: 200;
+}
+
+
+ .container {
+   background-color: rgb(53, 239, 252);
+   font-size: large;
+ }
+
+ .nav-link {
+   width: 80px;
+   height: 30px;
+ }
+
+ .nav-link:active {
+   color: rgb(252, 22, 22);
+
+ }
+
+ body article {
+   margin-left: 20px;
+   padding: auto;
+   font-size: medium;
+ }
+
+ body article p {
+   color: rgba(197, 240, 40, 0.966);
+   font-size: larger;
+ }
+
+ .fotos {
+   height: 500px;
+   width: 800px;
+ }
+
+ .fotos2 {
+   height: 300px;
+   width: 500px;
+ }
+
+ form {
+   font-family: 'Times New Roman', Times, serif;
+   color: chartreuse;
+   width: 50px;
+   height: 50px;
+ }
+
+ input {
+   background-color: chartreuse;
+ }
+
+ .padreFlex {
+   color: darkblue;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   width: auto;
+   height: auto;
+ }
+
+ .contacto {
+   color: rgb(255, 0, 200);
+   align-items: flex-start;
+   font-size: 40px;
+   background-color: rgb(46, 243, 121);
+   list-style: none;
+ }
+
+ h4 {
+   color: rgb(32, 14, 3);
+   font-size: 50px;
+   background-image: url(../img/burbujas2.jpg);
+   background-size: auto;
+ }
+
+ .touch {
+   width: 20px;
+   height: 50px;
+ }
+
+ .touch:hover {
+   width: 40px;
+   height: 60px;
+ }
+
+ h3 {
+   background-color: cornflowerblue;
+   display: flex;
+ }
+
+ h4 {
+   background-image: url(../img/burbujas2.jpg);
+   background-size: auto;
+   font-size: 60px;
+ }
+
+ .book {
+  justify-content: center;
+  grid-row-start:auto;
+ }
+ @media (max-width: 800px) {
+  .textogrande {
+    display: flex;
+    flex-direction: row;
+    font-size: 110%;
+  }
+}
