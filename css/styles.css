@@ -11,23 +11,24 @@
    background-size: cover;
 
  }
-.videoburger{
-  height: 200px;
-  width: auto;
-  display: inline-block;
-}
+
+ .videoburger {
+   height: 200px;
+   width: auto;
+   display: inline-block;
+ }
 
  .textogrande {
    font-size: 40px;
-  border: 5px solid red;
-  background-color: darkblue;
-}
+   border: 5px solid red;
+   background-color: darkblue;
+ }
 
-.textogrande p {
- font-style: italic;
- display: block;
- font-weight: 200;
-}
+ .textogrande p {
+   font-style: italic;
+   display: block;
+   font-weight: 200;
+ }
 
 
  .container {
@@ -123,13 +124,14 @@
  }
 
  .book {
-  justify-content: center;
-  grid-row-start:auto;
+   justify-content: center;
+   grid-row-start: auto;
  }
+
  @media (max-width: 800px) {
-  .textogrande {
-    display: flex;
-    flex-direction: row;
-    font-size: 110%;
-  }
-}
+   .textogrande {
+     display: flex;
+     flex-direction: row;
+     font-size: 110%;
+   }
+ }
